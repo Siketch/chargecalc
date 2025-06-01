@@ -1,0 +1,152 @@
+/* Container */
+.charge-calc-container {
+  max-width: 420px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-card);
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+  color: var(--text-primary, #242424);
+}
+
+.charge-calc-title {
+  margin-bottom: 1.5rem;
+  color: var(--text-heading, #333);
+}
+
+/* Labels and Inputs */
+.label-block {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.date-input-container,
+.end-date-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.date-input,
+.rate-input {
+  flex: 1;
+  padding: 0.4rem 0.5rem;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.today-button {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.fieldset {
+  margin-bottom: 1.5rem;
+  border-color: #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.radio-label {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-input {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Error */
+.error-message {
+  color: #b00020;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background-color: #fdd;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #b00020;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  align-items: center;
+}
+
+.calc-button,
+.clear-button {
+  flex: 1 0 auto;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.calc-button {
+  background-color: #4caf50;
+}
+
+.calc-button:hover {
+  background-color: #45a045;
+}
+
+.clear-button {
+  background-color: #f44336;
+}
+
+.clear-button:hover {
+  background-color: #da352a;
+}
+
+.theme-toggle-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Result Section */
+.result-section {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--text-primary, #242424);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.05);
+}
+
+.result-section h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--text-heading, #222);
+}
+
+.result-section hr {
+  margin: 1rem 0;
+}

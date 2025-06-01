@@ -1,13 +1,12 @@
-# Charge Calc
+# React + Vite
 
-**Charge Calc** is a lightweight React application designed to simplify the calculation of fortnightly rent and additional charges for tenants. Whether billing by weekly or nightly rates, including optional Glenn Dining fees, or processing refunds, this tool provides an easy, error-free way to compute tenant charges for any arbitrary billing period.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Features
-- Calculate charges based on any two dates (billing period)
-- Support for weekly or nightly room rates
-- Optional Glenn Dining add-on ($160/week, prorated)
-- Ability to toggle between charges and refunds
-- Clear, itemized summary of rent, dining, and total amounts
-- Simple and intuitive UI for fast calculations without backend dependencies
+Currently, two official plugins are available:
 
-This tool is ideal for property management staff who need to quickly and accurately generate payment amounts for various billing scenarios without manual calculation errors.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
